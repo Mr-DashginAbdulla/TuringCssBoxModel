@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.details {
+  padding: 15px;
+}
+
+.details h2 {
+  color: green;
+  font-size: 18px;
+}
+
+.details h3 {
+  color: red;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.details p {
+  padding: 5px 0;
+  color: #555;
+  font-size: 14px;
+}
