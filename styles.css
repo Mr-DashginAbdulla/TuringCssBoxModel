@@ -12,16 +12,29 @@
   margin: 30px auto;
   overflow: hidden;
   transition: 0.5s;
+
+  .img-2 {
+    display: none;
+    transition: 1s;
+  }
 }
 
 .card:hover {
   width: 350px;
   box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
+
+  .img-1 {
+    display: none;
+  }
+  .img-2 {
+    display: block;
+  }
 }
 
 .card img {
   width: 100%;
   height: auto;
+  transition: 0.5s;
 }
 
 .details {
