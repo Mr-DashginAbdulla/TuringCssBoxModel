@@ -6,7 +6,7 @@
 
 .card {
   font-family: Arial, sans-serif;
-  width: 300px;
+  width: 400px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: 30px auto;
@@ -15,11 +15,12 @@
 
   .img-2 {
     display: none;
+    transition: 1s;
   }
 }
 
 .card:hover {
-  width: 350px;
+  width: 450px;
   box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.2);
 
   .img-1 {
@@ -32,8 +33,6 @@
 
 .card img {
   width: 100%;
-  height: auto;
-  transition: 0.5s;
 }
 
 .details {
